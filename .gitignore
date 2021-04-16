@@ -101,3 +101,6 @@ build/
 /.yarn/install-state.gz
 
 /examples/*/artifacts
+
+/packages/**/target
+/packages/**/artifacts
