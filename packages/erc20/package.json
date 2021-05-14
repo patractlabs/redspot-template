@@ -5,17 +5,20 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@redspot/chai": "^0.11.2-1",
-    "@redspot/gas-reporter": "^0.11.2-1",
-    "@redspot/patract": "^0.11.2-1",
+    "@redspot/chai": "^0.11.3",
+    "@redspot/decimals": "^0.11.4-17",
+    "@redspot/gas-reporter": "^0.11.3",
+    "@redspot/known-types": "^0.11.4-2",
+    "@redspot/patract": "^0.11.3",
     "@types/chai": "^4.2.16",
     "@types/mocha": "^8.2.2",
     "chai": "^4.3.4",
-    "redspot": "^0.11.2-1",
+    "redspot": "^0.11.3",
     "typescript": "^4.2.4"
   },
   "scripts": {
     "build": "redspot compile",
-    "test": "redspot test"
+    "test": "redspot test",
+    "deploy": "redspot run scripts/deploy.ts"
   }
 }
