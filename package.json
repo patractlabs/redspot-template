@@ -1,6 +1,7 @@
 {
   "name": "redspot-template",
   "version": "0.0.0",
+  "private": true,
   "description": "redspot template",
   "main": "index.js",
   "repository": {
@@ -17,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/patractlabs/redspot-template/issues"
   },
-  "homepage": "https://github.com/patractlabs/redspot-template#readme",
-  "workspaces": [
-    "packages/*"
-  ]
+  "homepage": "https://github.com/patractlabs/redspot-template#readme"
 }

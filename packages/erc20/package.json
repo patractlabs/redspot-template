@@ -1,24 +1,34 @@
 {
   "name": "erc20",
   "version": "0.0.0",
-  "author": "patractlabs",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@redspot/chai": "^0.11.3",
-    "@redspot/decimals": "^0.11.4-17",
-    "@redspot/gas-reporter": "^0.11.3",
-    "@redspot/known-types": "^0.11.4-2",
-    "@redspot/patract": "^0.11.3",
-    "@types/chai": "^4.2.16",
-    "@types/mocha": "^8.2.2",
-    "chai": "^4.3.4",
-    "redspot": "^0.11.3",
+  "private": true,
+  "engines": {
+    "node": ">=14.x"
+  },
+  "resolutions": {
+    "@polkadot/api": "4.11.2",
+    "@polkadot/api-contract": "4.11.2",
+    "@polkadot/types": "4.11.2",
+    "@polkadot/util": "6.5.1",
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "@redspot/chai": "^0.11.4-32",
+    "@redspot/decimals": "^0.11.4-32",
+    "@redspot/explorer": "^0.11.4-32",
+    "@redspot/gas-reporter": "^0.11.4-32",
+    "@redspot/known-types": "^0.11.4-32",
+    "@redspot/patract": "^0.11.4-32",
+    "@redspot/watcher": "^0.11.4-32",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "redspot": "^0.11.4-32",
     "typescript": "^4.2.4"
   },
+  "module": "true",
   "scripts": {
-    "build": "redspot compile",
-    "test": "redspot test",
-    "deploy": "redspot run scripts/deploy.ts"
+    "build": "npx redspot compile",
+    "test": "npx redspot test"
   }
 }
