@@ -11,14 +11,14 @@ export default {
   defaultNetwork: "development",
   contract: {
     ink: {
-      docker: true,
+      docker: false,
       toolchain: "nightly",
       sources: ["contracts/**/*"],
     },
   },
   networks: {
     development: {
-      endpoint: "ws://127.0.0.1:9944",
+      endpoint: "ws://192.168.50.10:9944",
       gasLimit: "400000000000",
       types: {},
     },

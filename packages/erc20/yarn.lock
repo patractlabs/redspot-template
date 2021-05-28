@@ -356,68 +356,68 @@
     "@types/websocket" "^1.0.2"
     websocket "^1.0.34"
 
-"@redspot/chai@^0.11.4-32":
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/@redspot/chai/-/chai-0.11.4-33.tgz#d74157b0c91f239d12445aa24f9a6770522558d3"
-  integrity sha512-g++O/9oKseQKHjaV7jFi/PFG++X4FUwNicVlEXzRN70ZeSp4QmztdN4bhlLEN48Qva+iU69aTFTyCaUv++Wl/A==
+"@redspot/chai@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@redspot/chai/-/chai-0.11.4.tgz#a934a08a81f94ee0e17855df4f17fb94a0564b4b"
+  integrity sha512-R10F+k4NjhyRtgQdCExxGB5UsF5SEOKhRhz3MwcJTnzX2FdJY4oiZknszW+N0eFZhRHB+Gvk7irILH6UeOOw6A==
   dependencies:
     "@polkadot/api" "^4.11.2"
     "@polkadot/api-contract" "^4.11.2"
-    redspot "^0.11.4-33"
+    redspot "^0.11.4"
 
-"@redspot/decimals@^0.11.4-32":
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/@redspot/decimals/-/decimals-0.11.4-33.tgz#e56850fda51a3810999458535fc0a71ad795ce47"
-  integrity sha512-giDe4osZaSMft8L2f5VFMOJBdAMqrrwAsS48s5elGxu93JxOpxMIohZXGnX+2XIFDPuj5uVr33Vq1pK3+39LFQ==
+"@redspot/decimals@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@redspot/decimals/-/decimals-0.11.4.tgz#ede92e4d19d32725441f45710c26a7f3b1efbef4"
+  integrity sha512-FMImoBRfGAm7qgH5OJSolD63HLhPdRAPYOE2vMk0NOyalajQ5vO13xooyazdPT1DCH3VJCRAQ8WsKbKiNxgF9g==
   dependencies:
     "@polkadot/api" "^4.11.2"
     "@polkadot/api-contract" "^4.11.2"
-    redspot "^0.11.4-33"
+    redspot "^0.11.4"
 
-"@redspot/explorer@^0.11.4-32":
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/@redspot/explorer/-/explorer-0.11.4-33.tgz#6aadeaf28ab5f5de8e9862f592c020e2875ab6c5"
-  integrity sha512-JrILDDoK83UTFZmCggcvOEvxLd15fhgTlyhhuGYRjANqAADsz1eIzxBRT/p4meVmqlzfU4CqMAUX6UMyOGd/UQ==
+"@redspot/explorer@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@redspot/explorer/-/explorer-0.11.4.tgz#568fe60240607449d7c713aaeffbfaef688baae5"
+  integrity sha512-wiMkwA6hWdyZCL2t+DhO/q0iO0FaSTqQQETdwcf22Kl30rQ3KSPMg1SIoo21iy3uWCFjXsw0i/jefhEi2ff0Vg==
   dependencies:
     cors "^2.8.5"
     express "^4.17.1"
     socket.io "^4.0.1"
     socket.io-client "^4.0.1"
 
-"@redspot/gas-reporter@^0.11.4-32":
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/@redspot/gas-reporter/-/gas-reporter-0.11.4-33.tgz#2ad9a2545f3093e9598c7a3cb3cc161f10542ef7"
-  integrity sha512-YDmzL6G8B43bcNk+bOEbPnbOn+EEjPcjgKAvhae2gn3Hs2qHZQq4llbCf7eNwFAdMS050V7llSCEWllHCMJFeA==
+"@redspot/gas-reporter@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@redspot/gas-reporter/-/gas-reporter-0.11.4.tgz#9cc2134177955accc704ab9bd6baaef1b420dfc0"
+  integrity sha512-hcUN3uSLV59zThvhHMGPJblxF1HzcxCu3jsraUvApdqRp5itDDxJfvc8l5o2KcFKEqUS8r4LEKO/e15pzvEGnw==
   dependencies:
     cli-table3 "^0.6.0"
     colors "^1.4.0"
     deasync "^0.1.21"
     lodash "^4.17.20"
-    redspot "^0.11.4-33"
+    redspot "^0.11.4"
     sync-request "^6.1.0"
 
-"@redspot/known-types@^0.11.4-32":
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/@redspot/known-types/-/known-types-0.11.4-33.tgz#255f8775c514b1cf043352c9dccd98d878c041b0"
-  integrity sha512-INpdl0jHLox2toQ6rp8mesl2LMv6RPAs8VpiITZYag4PEPU8wbu9zfTIAi2YVuHZcd73mG39+rPNytHOpr9ZvA==
+"@redspot/known-types@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@redspot/known-types/-/known-types-0.11.4.tgz#27769042355fed10c9496cd7cb83b484d4e8ce59"
+  integrity sha512-G+lHmCiqUyCgU6tDdIEiN6r1hhwGQ5F5zJaSdnGKzpQv9TNcPBpZM/ztTAjUGewwEUopRU9PYNWdV1PiACedCw==
   dependencies:
     "@polkadot/api" "^4.11.2"
     "@polkadot/apps-config" "0.87.2-20"
-    redspot "^0.11.4-33"
+    redspot "^0.11.4"
 
-"@redspot/patract@^0.11.4-32":
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/@redspot/patract/-/patract-0.11.4-33.tgz#91ac04b69df98ca2a52679bc388a6e8ab80aeb27"
-  integrity sha512-aZOjXgHAL+uTyH7Meq3AxMgEFtlv95mgG3BsKsWKDYAjHtRbk+1L2I0SBExiG6KhpO7e+OZXeoeOk2e99wRoFQ==
+"@redspot/patract@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@redspot/patract/-/patract-0.11.4.tgz#714d5328bb3efe94c8b809ddd2ce41ac6c05df81"
+  integrity sha512-pDdeYERqyF0Iw03NWtzte9/wfxat2Qo/gOtwj0ArCUfWxINKzAnjK1MvfwsKKLrlhFOZML6uAMGuu0sgth9MKQ==
   dependencies:
     "@polkadot/api" "^4.11.2"
     "@polkadot/api-contract" "^4.11.2"
-    redspot "^0.11.4-33"
+    redspot "^0.11.4"
 
-"@redspot/watcher@^0.11.4-32":
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/@redspot/watcher/-/watcher-0.11.4-33.tgz#fc5adcd11b90a9970efa4c5242dca5292da0a4f6"
-  integrity sha512-90kSdXNHkRAC/e5mhAHFZbBZSQ8Gfef2WLTMn60PVcbMiiRYC9RZWvrXEKiK7Bv4IZa/bGZY2Cr/lXel04ZnuQ==
+"@redspot/watcher@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@redspot/watcher/-/watcher-0.11.4.tgz#20006b3a2ffb26292a9d5ee8deb5962e8363ccbc"
+  integrity sha512-KWXljOF4qEPplPaysyAfcHY4gXjrKnW+RE3zJw2tO1nfB6IVwQzzg/jaZcsANBbN2MwBI+PQliYSls2A71yh2w==
   dependencies:
     folder-hash "^4.0.1"
     fs-extra "^9.1.0"
@@ -473,6 +473,26 @@
     loglevel-plugin-prefix "^0.8.4"
     remark "^13.0.0"
     strip-markdown "^4.0.0"
+
+"@tsconfig/node10@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.7.tgz#1eb1de36c73478a2479cc661ef5af1c16d86d606"
+  integrity sha512-aBvUmXLQbayM4w3A8TrjwrXs4DZ8iduJnuJLLRGdkWlyakCf1q6uHZJBzXoRA/huAEknG5tcUyQxN3A+In5euQ==
+
+"@tsconfig/node12@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node12/-/node12-1.0.7.tgz#677bd9117e8164dc319987dd6ff5fc1ba6fbf18b"
+  integrity sha512-dgasobK/Y0wVMswcipr3k0HpevxFJLijN03A8mYfEPvWvOs14v0ZlYTR4kIgMx8g4+fTyTFv8/jLCIfRqLDJ4A==
+
+"@tsconfig/node14@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node14/-/node14-1.0.0.tgz#5bd046e508b1ee90bc091766758838741fdefd6e"
+  integrity sha512-RKkL8eTdPv6t5EHgFKIVQgsDapugbuOptNd9OOunN/HAkzmmTnZELx1kNCK0rSdUYGmiFMM3rRQMAWiyp023LQ==
+
+"@tsconfig/node16@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.1.tgz#a6ca6a9a0ff366af433f42f5f0e124794ff6b8f1"
+  integrity sha512-FTgBI767POY/lKNDNbIzgAX6miIDBs6NTCbdlDb8TrWovHsSvaVIZDlTqym29C6UqhzwcJx4CYr+AlrMywA0cA==
 
 "@types/bn.js@^4.11.6":
   version "4.11.6"
@@ -1068,7 +1088,7 @@ debug@2.6.9, debug@^2.2.0:
   dependencies:
     ms "2.0.0"
 
-debug@4.3.1, debug@^4.0.0, debug@^4.1.1, debug@^4.3.1, debug@~4.3.1:
+debug@4.3.1, debug@^4.0.0, debug@^4.1.1, debug@^4.2.4, debug@~4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
@@ -2339,10 +2359,10 @@ readdirp@~3.5.0:
   dependencies:
     picomatch "^2.2.1"
 
-redspot@^0.11.4-32, redspot@^0.11.4-33:
-  version "0.11.4-33"
-  resolved "https://registry.yarnpkg.com/redspot/-/redspot-0.11.4-33.tgz#906c274596d700fbb7ee8431ff6bda012a0e7be5"
-  integrity sha512-uvTnoF/WbI54KYg4BeqZe1xVZfH9HrSBUYcr/sJFUUi4UrOV64CzOogro/aRzKFNElJe4WypX93iVqZu+tdBHA==
+redspot@^0.11.4:
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/redspot/-/redspot-0.11.4.tgz#334faedd5e3aae407c2a07a73faaba363a8095fb"
+  integrity sha512-VAC+reRH3shZQKRiVyntSKeB0Y97zznmJIln0wif24adeMxTLiWjN+WnEt4CtqprLMMHpXIMIENklSpyEJ5thA==
   dependencies:
     "@polkadot/api" "^4.11.2"
     abort-controller "^3.0.0"
@@ -2351,7 +2371,7 @@ redspot@^0.11.4-32, redspot@^0.11.4-33:
     ci-info "^2.0.0"
     consola "^2.15.0"
     cross-spawn "^7.0.3"
-    debug "^4.3.1"
+    debug "^4.2.4"
     env-paths "^2.2.0"
     eventemitter3 "^4.0.7"
     execa "^5.0.0"
@@ -2738,6 +2758,22 @@ trough@^1.0.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/true-case-path/-/true-case-path-2.2.1.tgz#c5bf04a5bbec3fd118be4084461b3a27c4d796bf"
   integrity sha512-0z3j8R7MCjy10kc/g+qg7Ln3alJTodw9aDuVWZa3uiWqfuBMKeAeP2ocWcxoyM3D73yz3Jt/Pu4qPr4wHSdB/Q==
+
+ts-node@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.0.0.tgz#05f10b9a716b0b624129ad44f0ea05dac84ba3be"
+  integrity sha512-ROWeOIUvfFbPZkoDis0L/55Fk+6gFQNZwwKPLinacRl6tsxstTF1DbAcLKkovwnpKMVvOMHP1TIbnwXwtLg1gg==
+  dependencies:
+    "@tsconfig/node10" "^1.0.7"
+    "@tsconfig/node12" "^1.0.7"
+    "@tsconfig/node14" "^1.0.0"
+    "@tsconfig/node16" "^1.0.1"
+    arg "^4.1.0"
+    create-require "^1.1.0"
+    diff "^4.0.1"
+    make-error "^1.1.1"
+    source-map-support "^0.5.17"
+    yn "3.1.1"
 
 ts-node@^9.0.0:
   version "9.1.1"
