@@ -1,0 +1,23 @@
+{
+  "name": "redspot-multi-contract-example",
+  "version": "0.1.0",
+  "private": true,
+  "resolutions": {
+    "@polkadot/api": "^4.11.2",
+    "@polkadot/api-contract": "^4.11.2"
+  },
+  "dependencies": {
+    "@redspot/chai": "latest",
+    "@redspot/gas-reporter": "latest",
+    "@redspot/patract": "latest",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "redspot": "latest",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "npx redspot compile",
+    "test": "npx redspot test"
+  }
+}
