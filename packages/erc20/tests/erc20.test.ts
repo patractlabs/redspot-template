@@ -5,7 +5,7 @@ const { getContractFactory, getRandomSigner } = patract;
 
 const { api, getAddresses, getSigners } = network;
 
-describe("ERC20", () => {
+describe("Erc20", () => {
   after(() => {
     return api.disconnect();
   });
@@ -15,9 +15,9 @@ describe("ERC20", () => {
     const signerAddresses = await getAddresses();
     const Alice = signerAddresses[0];
     const sender = await getRandomSigner(Alice, "10000 UNIT");
-    const contractFactory = await getContractFactory("erc20", sender.address);
+    const contractFactory = await getContractFactory("erc20_template", sender.address);
     const contract = await contractFactory.deploy("new", "1000");
-    const abi = artifacts.readArtifact("erc20");
+    const abi = artifacts.readArtifact("erc20_template");
     const receiver = await getRandomSigner();
 
     return { sender, contractFactory, contract, abi, receiver, Alice };
