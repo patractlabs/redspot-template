@@ -1,1 +1,1 @@
-# erc20
+# erc20_template

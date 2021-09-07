@@ -1972,9 +1972,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"erc20@workspace:packages/erc20":
+"erc20_template@workspace:packages/erc20":
   version: 0.0.0-use.local
-  resolution: "erc20@workspace:packages/erc20"
+  resolution: "erc20_template@workspace:packages/erc20"
   dependencies:
     "@redspot/chai": ^0.11.8
     "@redspot/decimals": ^0.11.8

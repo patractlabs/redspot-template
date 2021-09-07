@@ -12,7 +12,7 @@ async function run() {
   // const signer = (await getSigners())[0]
   const signer = "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"; // Alice Address
 
-  const contractFactory = await getContractFactory("erc20", signer);
+  const contractFactory = await getContractFactory("erc20_template", signer);
 
   const balance = await api.query.system.account(signer);
 
