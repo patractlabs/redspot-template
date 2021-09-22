@@ -140,7 +140,7 @@ mod erc20 {
         /// for the caller to withdraw from `from`.
         ///
         /// Returns `InsufficientBalance` error if there are not enough tokens on
-        /// the the account balance of `from`.
+        /// the account balance of `from`.
         #[ink(message)]
         pub fn transfer_from(
             &mut self,
@@ -339,8 +339,8 @@ mod erc20 {
 
             assert_eq!(erc20.balance_of(accounts.bob), 0);
             // Get contract address.
-            let callee =
-                ink_env::account_id::<ink_env::DefaultEnvironment>().unwrap_or([0x0; 32].into());
+            let callee = ink_env::account_id::<ink_env::DefaultEnvironment>()
+                .unwrap_or_else(|_| [0x0; 32].into());
             // Create call
             let mut data = ink_env::test::CallData::new(ink_env::call::Selector::new([0x00; 4])); // balance_of
             data.push_arg(&accounts.bob);
@@ -394,8 +394,8 @@ mod erc20 {
             assert_eq!(ink_env::test::recorded_events().count(), 2);
 
             // Get contract address.
-            let callee =
-                ink_env::account_id::<ink_env::DefaultEnvironment>().unwrap_or([0x0; 32].into());
+            let callee = ink_env::account_id::<ink_env::DefaultEnvironment>()
+                .unwrap_or_else(|_| [0x0; 32].into());
             // Create call.
             let mut data = ink_env::test::CallData::new(ink_env::call::Selector::new([0x00; 4])); // balance_of
             data.push_arg(&accounts.bob);
@@ -446,8 +446,8 @@ mod erc20 {
             assert_eq!(erc20.approve(accounts.bob, initial_allowance), Ok(()));
 
             // Get contract address.
-            let callee =
-                ink_env::account_id::<ink_env::DefaultEnvironment>().unwrap_or([0x0; 32].into());
+            let callee = ink_env::account_id::<ink_env::DefaultEnvironment>()
+                .unwrap_or_else(|_| [0x0; 32].into());
             // Create call.
             let mut data = ink_env::test::CallData::new(ink_env::call::Selector::new([0x00; 4])); // balance_of
             data.push_arg(&accounts.bob);
@@ -461,7 +461,7 @@ mod erc20 {
             );
 
             // Bob tries to transfer tokens from Alice to Eve.
-            let emitted_events_before = ink_env::test::recorded_events().collect::<Vec<_>>();
+            let emitted_events_before = ink_env::test::recorded_events();
             assert_eq!(
                 erc20.transfer_from(accounts.alice, accounts.eve, alice_balance + 1),
                 Err(Error::InsufficientBalance)
@@ -472,8 +472,8 @@ mod erc20 {
                 initial_allowance
             );
             // No more events must have been emitted
-            let emitted_events_after = ink_env::test::recorded_events().collect::<Vec<_>>();
-            assert_eq!(emitted_events_before.len(), emitted_events_after.len());
+            let emitted_events_after = ink_env::test::recorded_events();
+            assert_eq!(emitted_events_before.count(), emitted_events_after.count());
         }
     }
 
