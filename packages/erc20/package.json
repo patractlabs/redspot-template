@@ -5,6 +5,14 @@
   "engines": {
     "node": ">=14.x"
   },
+  "resolutions": {
+    "@polkadot/api": "6.0.1",
+    "@polkadot/api-contract": "6.0.1",
+    "@polkadot/types": "6.0.1",
+    "@polkadot/util": "7.4.1",
+    "@polkadot/util-crypto": "7.4.1",
+    "@polkadot/keyring": "7.4.1"
+  },
   "dependencies": {
     "@redspot/chai": "^0.12.2",
     "@redspot/decimals": "^0.12.2",

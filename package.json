@@ -19,9 +19,6 @@
     "url": "https://github.com/patractlabs/redspot-template/issues"
   },
   "homepage": "https://github.com/patractlabs/redspot-template#readme",
-  "workspaces": [
-    "packages/*"
-  ],
   "engines": {
     "node": ">=8.2.0",
     "yarn": "^1.10.1"
