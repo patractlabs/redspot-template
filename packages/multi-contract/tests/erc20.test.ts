@@ -11,7 +11,7 @@ describe("ERC20", () => {
   });
 
   async function setup() {
-    await api.isReady
+    await api.isReady;
     const signerAddresses = await getAddresses();
     const Alice = signerAddresses[0];
     const sender = await getRandomSigner(Alice, "10000 UNIT");

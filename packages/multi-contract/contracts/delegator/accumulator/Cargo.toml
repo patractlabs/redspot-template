@@ -1,5 +1,5 @@
 [package]
-name = "erc20"
+name = "accumulator"
 version = "3.0.0-rc6"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
@@ -15,9 +15,14 @@ scale = { package = "parity-scale-codec", version = "2", default-features = fals
 scale-info = { version = "1", default-features = false, features = ["derive"], optional = true }
 
 [lib]
-name = "erc20"
+name = "accumulator"
 path = "lib.rs"
-crate-type = ["cdylib"]
+crate-type = [
+    # Used for normal contract Wasm blobs.
+    "cdylib",
+    # Used for ABI generation.
+    "rlib",
+]
 
 [features]
 default = ["std"]
@@ -33,4 +38,3 @@ std = [
     "scale-info/std",
 ]
 ink-as-dependency = []
-ink-experimental-engine = ["ink_env/ink-experimental-engine"]
