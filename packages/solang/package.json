@@ -1,10 +1,7 @@
 {
-  "name": "erc20",
+  "name": "redspot-solang",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=14.x"
-  },
   "resolutions": {
     "@polkadot/api": "6.5.2",
     "@polkadot/api-contract": "6.5.2",
@@ -28,10 +25,8 @@
     "redspot": "0.13.1",
     "typescript": "^4.3.2"
   },
-  "module": "true",
   "scripts": {
     "build": "yarn redspot compile",
-    "test": "yarn redspot test --no-compile",
-    "explorer": "yarn redspot explorer"
+    "test": "yarn redspot test"
   }
 }

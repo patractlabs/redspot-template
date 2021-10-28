@@ -125,7 +125,7 @@
   resolved "https://registry.yarnpkg.com/@phala/typedefs/-/typedefs-0.2.5.tgz#859ee61096319ee002454d7be386334866e9831a"
   integrity sha512-WCjpuSaxmM9wpQ0bv7CL9KBlBX59M30oPFaQtrbESGWXaZI15ej3ltuD2ftKJ0olfnkjayWO41Y9lmBFt1cMCw==
 
-"@polkadot/api-contract@6.5.2", "@polkadot/api-contract@^6.5.2":
+"@polkadot/api-contract@^6.5.2":
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/@polkadot/api-contract/-/api-contract-6.5.2.tgz#e40d171ba1a31abe940a3194f01645038ad0d650"
   integrity sha512-FZvBmQVmUghAjNy2z0Uw24Ks2da1n4QyN0b1ggBGmju0pUg/mISkPlzbonMp6Xq7W9aO5QXKF9qmerm7XThH0Q==
@@ -245,7 +245,7 @@
     "@polkadot/types" "6.5.2"
     "@polkadot/util" "^7.6.1"
 
-"@polkadot/types@4.0.4-5", "@polkadot/types@6.5.2", "@polkadot/types@^4.11.3-0", "@polkadot/types@^4.13.1", "@polkadot/types@^5.2.1", "@polkadot/types@~4.15.1":
+"@polkadot/types@4.0.4-5", "@polkadot/types@6.5.2", "@polkadot/types@^4.11.3-0", "@polkadot/types@^4.13.1", "@polkadot/types@^5.2.1", "@polkadot/types@^6.5.2", "@polkadot/types@~4.15.1":
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/@polkadot/types/-/types-6.5.2.tgz#76f5fb1b35ae20530554869b9a859811b4048b28"
   integrity sha512-QDE5SxyW/Veq0IB8zT0RaBJTedmVkxhR8EykwslJiRuHSBz/HZjtEhcnA44c8fdKWKkbURklbX2vlWd7d2w4jQ==
